@@ -1,14 +1,16 @@
-atob() {
-    local ascii="$1"
-    local binary=""
+# atob() {
+#     local ascii="$1"
+#     local binary=""
 
-    for (( i=0; i<${#ascii}; i++ )); do
-        char="${ascii:$i:1}"
-        binary+="$(printf '%08d' $(bc <<< "ibase=8; obase=2; $char")) "
-    done
+#     for (( i=0; i<${#ascii}; i++ )); do
+#         char="${ascii:$i:1}"
+#         binary+="$(printf '%08d' $(bc <<< "ibase=8; obase=2; $char")) "
+#     done
 
-    echo "$binary"
-}
+#     echo "$binary"
+# }
 
-# # Usage example:
-atob "Hello"
+# # # Usage example:
+# atob "Hello"
+
+echo $1 | base64 -d 
