@@ -1,5 +1,0 @@
-<!doctype html>
-<html lang=en>
-<title>Redirecting...</title>
-<h1>Redirecting...</h1>
-<p>You should be redirected automatically to the target URL: <a href="/user?user=admin&amp;email=flag7%7BXSS:_When_JavaScript_becomes_mischievous%7D">/user?user=admin&amp;email=flag7%7BXSS:_When_JavaScript_becomes_mischievous%7D</a>. If not, click the link.
