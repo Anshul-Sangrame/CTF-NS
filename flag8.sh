@@ -1,0 +1,1 @@
+./heartbleed.sh "cat flag" | grep -o 'flag8{.*}'

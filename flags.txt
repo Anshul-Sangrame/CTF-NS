@@ -1,0 +1,8 @@
+Flag-1(Just visit Port: 1574): Don't_be_a_phishing_victim
+Flag-2(heartbleed Port: 1624): The_best_way_to_learn_about_cybersecurity_is_to_break_things
+Flag-3(heartbleed Port: 1624): Error_404:_flag_not_found
+Flag-4(heartbleed Port: 1624): I_put_the_'I'_in_security
+Flag-5(inspect js Port: 1594): Firewalls_are_essential_for_network_security
+Flag-6(Cookies Port: 1604): XSS:_When_code_meets_mischief
+Flag-7(sql injection Port: 1614): XSS:_When_JavaScript_becomes_mischievous
+Flag-8(heartbleed Port: 1624): Encrypting_your_data_is_non-negotiable
