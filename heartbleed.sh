@@ -1,1 +1,1 @@
-curl -s -N -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d "file=$1" 10.200.33.61:1624  
+curl -s -N -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d "file=$2" $1:1624  

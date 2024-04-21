@@ -1,1 +1,1 @@
-curl -s -N http://10.200.33.61:1574/ | grep -o 'flag1{.*}'
+curl -s -N http://$1:1574/ | grep -o 'flag1{.*}'
