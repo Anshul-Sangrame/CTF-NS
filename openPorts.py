@@ -16,11 +16,11 @@ def scan_ports(target_host):
 
     return open_ports
 
-# Check if command line arguments are provided
-if len(sys.argv) < 2:
-    print("Usage: python openPort.py <IP>")
-    sys.exit(1)
+# # Check if command line arguments are provided
+# if len(sys.argv) < 2:
+#     print("Usage: python openPort.py <IP>")
+#     sys.exit(1)
 
-target_host = sys.argv[1]
-open_ports = scan_ports(target_host)
-print("Open ports:", open_ports)
+# target_host = sys.argv[1]
+# open_ports = scan_ports(target_host)
+# print("Open ports:", open_ports)
